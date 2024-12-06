@@ -61,6 +61,7 @@ class SecondActivity : ComponentActivity() {
                                     e.printStackTrace()
                                 }
                             }*/
+
                             val Intent  = Intent(Intent.ACTION_SEND).apply {
                                 type = "text/plain"
                                 putExtra(Intent.EXTRA_EMAIL,"test@test.com")
